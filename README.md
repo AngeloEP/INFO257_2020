@@ -30,3 +30,4 @@ Note: Fitting the Training Data well but making poor predictions, is called the 
 	- 3) Calculate a p-value for R².
 		* This determines whether the R² value is statistically significant.
 		* F = ( ( SS(mean) - SS(fit) ) / (rho_fit - rho_mean) ) / ( SS(fit) / (n - rho_fit) )
+

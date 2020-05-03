@@ -25,11 +25,17 @@ Note: Fitting the Training Data well but making poor predictions, is called the 
 		* Note: Variation around the mean = (data - mean)² / n(sample size).
 		* Note: SS(fit) = (data - line)².
 		* Note: Variation around the line = (data - line)² / n(sample size).
-		* Note: R² tells us how much of the variation of the dependent variable can be explained by taking explanatory variable into account .
+		* Note: R² tells us how much of the variation of the dependent variable can be explained by taking explanatory variable into account.
 		* R² = ( var(mean) - Var(fit) ) / var(mean).
 		* Note: Also, R² = ( SS(mean) - SS(fit) ) / SS(mean).
 		* Note: If R² = 0.6 = 60%, that is to say, 60% of the sums of squares of the dependent variable can be explained by explanatory variable.
+		* R² needs to be large.
 	- Calculate a p-value for R².
 		* This determines whether the R² value is statistically significant.
-		* F = ( ( SS(mean) - SS(fit) ) / (rho_fit - rho_mean) ) / ( SS(fit) / (n - rho_fit) )
+		* F = ( ( SS(mean) - SS(fit) ) / (ρ_fit - ρ_mean) ) / ( SS(fit) / (n - rho_fit) ).
+		* ρ_fit and ρ_mean are degrees of freedom.
+		* ρ_fit is the number of parameters in the fit line.
+		* ρ_mean is the number of parameters in the mean line.
+		* If the "fit" is good, then F = a really large number.
+		* p-value needs to be small.
 

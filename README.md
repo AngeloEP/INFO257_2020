@@ -1,5 +1,5 @@
 # INFO257_2020
-Development of tasks subject INFO2020
+Development of tasks subject INFO257_2020
 
 ## Key Concepts
 **Training data** : The original data.
